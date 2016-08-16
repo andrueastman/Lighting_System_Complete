@@ -1,0 +1,29 @@
+The motor circuit
+The motor circuit is implemented in the opening and closing of the doors and curtains.A driver chip is used (The L293D chip)
+to control the rotation of the the motor depending on the control signals received from the microcontroller.
+In the event a forward rotation is is to be performed, bit 0 receives a high while bit one receives a low. In the event 
+a reverse rotation is needed, bit 0 receives a low while bit 1 receives a high. In the event no rotation is required both inputs
+are given a low signal or both inputs are given a high signal. For demontration purposes, a 12V Dc motor is used that will be rotating at a
+a contant speed. 
+
+
+The Display 
+The Display involves the use of a LCD screen to display the status of events in the system.  The LM016L is used in this case. It consists of a 
+16x2 character display that is connected to the microcontroller. The LCD is connected to the Microcontroller in 8 bit mode and therefore
+8 pins of the microcontroller are used to transfer data to be displayed and another 3 pins are used to send the control signals.
+The special commands used for the LCD for functions like initialization and clearing of the screen were obtained from the datasheet 
+of the LCD and implemented in the code.
+
+The Motion Sensor
+Due to the limitations of simulations and budgetary constraints, The motion sensor was not included in the simulations.
+However, the PIR(Passive Infrared Sensor) was identified for use in the event of the system implementation. Since it is a passive sensor
+it does not waste energy but reads changes in the surrounding area. Also, compared to the other types of sensors e.g the Microwave and Ultrasonic sensors,
+the PIR sensor proved to be much cheaper thus saving cost.
+
+The PIR sensor works with the principle of measuring IR light radiating from objects in its view. Since all objects above absolute zero temperature emit heat energy in the 
+form of heat energy, this can be detected by electronic devices since they travel at infrared wavelengths. Thus in the event a person moves about this reading increases from 
+that of room temperature to that of body temperature to trigger that a person is present. 
+
+
+
+ 

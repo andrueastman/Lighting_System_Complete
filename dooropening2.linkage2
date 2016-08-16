@@ -1,0 +1,19 @@
+<linkage2>
+	<program zoom="1.690000" xoffset="83" yoffset="-100" scalefactor="1.000000" units="Millimeters" viewlayers="4294967295" editlayers="4294967295"/>
+	<connector id="0" selected="false" name="" layer="16" anchor="true" input="false" draw="false" measurementelement="false" rpm="15.000000" x="-21.000000" y="13.000000" slider="false" alwaysmanual="false" drawcircle="0.000000" slideradius="0.000000"/>
+	<connector id="1" selected="false" name="" layer="16" anchor="false" input="false" draw="false" measurementelement="false" rpm="15.000000" x="-293.877551" y="19.591837" slider="false" alwaysmanual="false" drawcircle="0.000000" slideradius="0.000000"/>
+	<connector id="2" selected="false" name="" layer="16" anchor="true" input="true" draw="false" measurementelement="false" rpm="15.000000" x="47.267238" y="87.503925" slider="false" alwaysmanual="false" drawcircle="0.000000" slideradius="0.000000"/>
+	<connector id="3" selected="false" name="" layer="16" anchor="false" input="false" draw="false" measurementelement="false" rpm="15.000000" x="-12.160367" y="88.130661" slider="false" alwaysmanual="false" drawcircle="0.000000" slideradius="0.000000"/>
+	<Link id="0" selected="false" name="" layer="16" linesize="1" solid="false" actuator="false" alwaysmanual="false" measurementelement="false" throw="0.000000" cpm="15.000000" >
+		<connector id="0"/>
+		<connector id="1"/>
+	</Link>
+	<Link id="1" selected="false" name="" layer="16" linesize="1" solid="false" actuator="false" alwaysmanual="false" measurementelement="false" throw="0.000000" cpm="15.000000" >
+		<connector id="2"/>
+		<connector id="3"/>
+	</Link>
+	<Link id="2" selected="false" name="" layer="16" linesize="1" solid="false" actuator="false" alwaysmanual="false" measurementelement="false" throw="0.000000" cpm="15.000000" >
+		<connector id="1"/>
+		<connector id="3"/>
+	</Link>
+</linkage2>
